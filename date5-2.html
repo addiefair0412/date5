@@ -1,0 +1,46 @@
+<link rel="stylesheet" href="date5-2.css">
+ <body> 
+            <ul class="cover" id="background">
+                <li>
+                    <button onclick="enlargeButton()" id="grow"><p id="press">Press me</p> 
+                    </button> 
+                </li>
+                <li class="circle one"></li>
+                  <li class="circle two"></li>
+                  <li class="circle three"></li>
+                  <li class="circle four"></li>
+                  <li class="circle five"></li>
+                  <li class="circle six"><span></span></li>
+                  <li class="circle seven"><span></span></li>
+                  <li class="circle eight"><span></span></li>
+                  <li class="circle nine"><span></span></li>
+                  <li class="circle ten"><span></span></li>
+            </ul>
+     <div id="mainFrameTwo">
+     <h1>Date 5</h1>
+         <h3 id="first">Olympic Pizza</h3>
+         <h3 id="second">Kerry Park</h3>
+         <h3 id="third">Fog Room</h3>
+         <h3 id="fourth">Great Ferris Wheel</h3>
+     </div>
+         
+  
+        <!-- script to set display property -->
+        <script> 
+            tap = document.getElementById("grow"); 
+            words = document.getElementById("press");
+            pageTwo = document.getElementById("mainFrameTwo");
+            pageOne = document.getElementById("background");
+            // Function to set image dimensions 
+            function enlargeButton() { 
+                press.style.display = "none";
+                tap.style.transform = "scale(0)";  
+                tap.style.transition = "transform 1.2s ease";
+                pageOne.style.transform = "scale(0)";  
+                pageOne.style.transition = "transform 1.2s ease";
+                pageTwo.style.display = "block";
+            } 
+
+           
+        </script> 
+    </body> 

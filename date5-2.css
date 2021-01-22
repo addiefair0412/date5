@@ -1,0 +1,243 @@
+button {
+     border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    height: 150px;
+    width: 150px;
+    background-color: #FFBE0B;
+    color: white;
+    border: none;
+    top: 821px;
+    left: 299px;
+    z-index: 100;
+    display: block;
+    position: relative;
+    animation: buttonpulse 3s infinite ease-in-out alternate;
+    text-align: center;
+    line-height: 120px;
+    font-family: Bubbles;
+    transition-duration: all 3s ease-out;
+}
+
+#background {
+    height: 120px;
+    width:80px;
+    background-color: #FFBE0B;
+    animation: fadeOut ease 3s;
+    -webkit-animation: fadeOut ease 3s;
+    position: relative;
+    height: 1792px;
+    width: 828px;
+    margin: auto;
+    list-style: none;
+}
+
+@font-face {
+  font-family: Bubbles;
+  src: url("/hercules/Hercules.ttf");
+}
+
+#mainFrameTwo {
+    animation: fadeIn ease 1.5s;
+-webkit-animation: fadeIn ease 1.5s;
+    display:none;
+    position: absolute;
+    justify-content: center;
+    text-align: center;
+    top: 0px;
+    height: 1792px;
+    width: 100%;
+    font-family: Bubbles;
+    background-color: #FFBE0B;
+    color: white;
+    background: cover;
+    overflow-y: hidden;
+}
+
+@keyframes fadeIn {
+0% {opacity:0;}
+100% {opacity:1;}
+}
+
+@-moz-keyframes fadeIn {
+0% {opacity:0;}
+100% {opacity:1;}
+}
+
+@-webkit-keyframes fadeIn {
+0% {opacity:0;}
+100% {opacity:1;}
+}
+
+h1 {
+  animation: 10s slide-down;
+  margin-top:0%;
+}
+
+@keyframes slide-down {
+  from {
+    margin-top: -100%;
+    height: 300%; 
+  }
+
+  to {
+    margin-top: 10%;
+    height: 100%;
+  }
+}
+
+
+.cover li {
+    display: block;
+    position: absolute;
+}
+
+ul.cover li.circle {
+     -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    border-radius: 50%;
+}
+
+ul.cover li.one {
+    width: 160px;
+    height: 160px;
+    top: 816px;
+    left: 334px;
+    z-index: 99;
+    background-color: #3A86FF;
+    animation: onepulse 3s infinite ease-in-out alternate;
+}
+@keyframes onepulse {
+  from { transform: scale(1); }
+  to { transform: scale(1.2); }
+}
+
+ul.cover li.two {
+    width: 170px;
+    height: 170px;
+    top: 811px;
+    left: 329px;
+    z-index: 98;
+    background-color: #8338EC;
+    animation: twopulse 3s infinite ease-in-out alternate;
+}
+@keyframes twopulse {
+  from { transform: scale(1); }
+  to { transform: scale(1.5); }
+}
+
+ul.cover li.three {
+    width: 180px;
+    height: 180px;
+    top: 806px;
+    left: 324px;
+    z-index: 97;
+    background-color: #FF006E;
+    animation: threepulse 3s infinite ease-in-out alternate;
+}
+@keyframes threepulse {
+  from { transform: scale(1); }
+  to { transform: scale(1.8); }
+}
+
+
+ul.cover li.four {
+    width: 190px;
+    height: 190px;
+    top: 801px;
+    left: 319px;
+    z-index: 96;
+    background-color: #ff8f00;
+    animation: fourpulse 3s infinite ease-in-out alternate;
+}
+@keyframes fourpulse {
+  from { transform: scale(1); }
+  to { transform: scale(2.3); }
+}
+
+
+ul.cover li.five {
+    width: 200px;
+    height: 200px;
+    top: 796px;
+    left: 314px;
+    z-index: 95;
+    background-color: #3A86FF;
+     animation: fivepulse 3s infinite ease-in-out alternate;
+}
+@keyframes fivepulse {
+  from { transform: scale(1); }
+  to { transform: scale(3.1); }
+}
+
+ul.cover li.six {
+    width: 210px;
+    height: 210px;
+    top: 791px;
+    left: 309px;
+    z-index: 94;
+    background-color: #8338EC;
+    animation: sixpulse 3s infinite ease-in-out alternate;
+}
+@keyframes sixpulse {
+  from { transform: scale(1); }
+  to { transform: scale(4.4); }
+}
+
+ul.cover li.seven {
+    width: 220px;
+    height: 220px;
+    top: 786px;
+    left: 304px;
+    z-index: 93;
+     background-color: #FF006E;
+    animation: sevenpulse 3s infinite ease-in-out alternate;
+}
+@keyframes sevenpulse {
+  from { transform: scale(1); }
+  to { transform: scale(6.5); }
+}
+
+ul.cover li.eight {
+    width: 230px;
+    height: 230px;
+    top: 781px;
+    left: 299px;
+    z-index: 92;
+ background-color: #ff8f00;
+    animation: eightpulse 3s infinite ease-in-out alternate;
+}
+@keyframes eightpulse {
+  from { transform: scale(1); }
+  to { transform: scale(9.9); }
+}
+
+ul.cover li.nine {
+    width: 240px;
+    height: 240px;
+    top: 776px;
+    left: 294px;
+    z-index: 91;
+ background-color: #3A86FF;
+    animation: ninepulse 3s infinite ease-in-out alternate;
+}
+@keyframes ninepulse {
+  from { transform: scale(1); }
+  to { transform: scale(15.4); }
+}
+
+ul.cover li.ten {
+    width: 250px;
+    height: 250px;
+    top: 771px;
+    left: 289px;
+    z-index: 90;
+    background-color: #8338EC;
+    animation: tenpulse 3s infinite ease-in-out alternate;
+}
+@keyframes tenpulse {
+  from { transform: scale(1); }
+  to { transform: scale(24.3); }
+}
+
+
