@@ -1,0 +1,401 @@
+button {
+     border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    height: 150px;
+    width: 150px;
+    background-color: #FFBE0B;
+    color: white;
+    border: none;
+    top: 331px;
+    left: 72.5px;
+    z-index: 100;
+    display: block;
+    position: relative;
+    text-align: center;
+    line-height: 70px;
+    font-family: grandHotel;
+    transition-duration: all 3s ease-out;
+    font-size: 30px;
+}
+
+p {
+   animation: buttonpulse 3s infinite ease-in-out alternate; 
+}
+
+@keyframes buttonpulse {
+  from { transform: scale(1); }
+  to { transform: scale(1.4); }
+}
+
+button:active {
+    background-color: #FFBE0B;
+    filter: brightness(.8);
+    border: 2.5px solid 
+}
+
+#background {
+    background-color: #FFBE0B;
+    animation: fadeOut ease 3s;
+    -webkit-animation: fadeOut ease 3s;
+    position: relative;
+    height: 812px;
+    width: 375px;
+    list-style: none;
+}
+
+@font-face {
+  font-family: lato;
+  src: url("/lato/Lato-Hairline.ttf");
+}
+
+@font-face {
+  font-family: grandHotel;
+  src: url("/grand-hotel/GrandHotel-Regular.otf");
+}
+
+#mainFrameTwo {
+    display:none;
+    position: absolute;
+    justify-content: center;
+    text-align: center;
+    top: 0px;
+    height: 812px;
+    width: 375px;
+    background-color: #FFBE0B;
+    background: cover;
+    overflow-y: hidden;
+    border-radius: 3%;
+}
+
+h1 {
+  animation: 1.0s slide-down;
+  margin-top: 30px;
+    margin-bottom: 30px;
+    font-family: grandHotel;
+    color: white;
+    font-size: 80px;
+}
+
+@keyframes slide-down {
+  from {
+    margin-top: -100%;
+    height: 200%; 
+  }
+
+  to {
+    margin-top: 30px;
+    height: 100%;
+  }
+}
+
+h3 {
+    font-family: lato;
+    color: white;
+    font-size: 25px;
+}
+
+#first {
+    animation: 1.5s fadeInFirst;
+}
+
+@keyframes fadeInFirst {
+0% {opacity:0;}  
+58.33% {opacity:0;}
+100% {opacity:1;}
+}
+
+@-moz-keyframes fadeInFirst {
+0% {opacity:0;}
+58.33% {opacity:0;}
+100% {opacity:1;}
+}
+
+@-webkit-keyframes fadeInFirst {
+0% {opacity:0;}
+58.33% {opacity:0;}
+100% {opacity:1;}
+}
+
+#second {
+    animation: 1.7s fadeInSecond;
+}
+
+@keyframes fadeInSecond {
+0% {opacity:0;}  
+64.29% {opacity:0;}
+100% {opacity:1;}
+}
+
+@-moz-keyframes fadeInSecond {
+0% {opacity:0;}
+64.29% {opacity:0;}
+100% {opacity:1;}
+}
+
+@-webkit-keyframes fadeInSecond {
+0% {opacity:0;}
+64.29% {opacity:0;}
+100% {opacity:1;}
+}
+
+#third {
+    animation: 1.9s fadeInThird;
+}
+
+@keyframes fadeInThird {
+0% {opacity:0;}  
+68.75% {opacity:0;}
+100% {opacity:1;}
+}
+
+@-moz-keyframes fadeInThird {
+0% {opacity:0;}
+68.75% {opacity:0;}
+100% {opacity:1;}
+}
+
+@-webkit-keyframes fadeInThird {
+0% {opacity:0;}
+68.75% {opacity:0;}
+100% {opacity:1;}
+}
+
+#fourth {
+    animation: 2.1s fadeInFourth;
+}
+
+@keyframes fadeInFourth {
+0% {opacity:0;}  
+72.22% {opacity:0;}
+100% {opacity:1;}
+}
+
+@-moz-keyframes fadeInFourth {
+0% {opacity:0;}
+72.22% {opacity:0;}
+100% {opacity:1;}
+}
+
+@-webkit-keyframes fadeInFourth {
+0% {opacity:0;}
+72.22% {opacity:0;}
+100% {opacity:1;}
+}
+
+.cover li {
+    display: block;
+    position: absolute;
+}
+
+ul.cover li.circle {
+     -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    border-radius: 50%;
+}
+
+ul.cover li.one {
+    width: 160px;
+    height: 160px;
+    top: 326px;
+    left: 107.5px;
+    z-index: 99;
+    background-color: #3A86FF;
+    animation: onepulse 3s infinite ease-in-out alternate;
+}
+@keyframes onepulse {
+  from { transform: scale(1); }
+  to { transform: scale(1.2); }
+}
+
+ul.cover li.two {
+    width: 170px;
+    height: 170px;
+    top: 321px;
+    left: 102.5px;
+    z-index: 98;
+    background-color: #8338EC;
+    animation: twopulse 3s infinite ease-in-out alternate;
+}
+@keyframes twopulse {
+  from { transform: scale(1); }
+  to { transform: scale(1.5); }
+}
+
+ul.cover li.three {
+    width: 180px;
+    height: 180px;
+    top: 316px;
+    left: 97.5px;
+    z-index: 97;
+    background-color: #FF006E;
+    animation: threepulse 3s infinite ease-in-out alternate;
+}
+@keyframes threepulse {
+  from { transform: scale(1); }
+  to { transform: scale(1.8); }
+}
+
+
+ul.cover li.four {
+    width: 190px;
+    height: 190px;
+    top: 311px;
+    left: 92.5px;
+    z-index: 96;
+    background-color: #ff8f00;
+    animation: fourpulse 3s infinite ease-in-out alternate;
+}
+@keyframes fourpulse {
+  from { transform: scale(1); }
+  to { transform: scale(2.3); }
+}
+
+
+ul.cover li.five {
+    width: 200px;
+    height: 200px;
+    top: 306px;
+    left: 87.5px;
+    z-index: 95;
+    background-color: #3A86FF;
+     animation: fivepulse 3s infinite ease-in-out alternate;
+}
+@keyframes fivepulse {
+  from { transform: scale(1); }
+  to { transform: scale(3.1); }
+}
+
+ul.cover li.six {
+    width: 210px;
+    height: 210px;
+    top: 301px;
+    left: 82.5px;
+    z-index: 94;
+    background-color: #8338EC;
+    animation: sixpulse 3s infinite ease-in-out alternate;
+}
+@keyframes sixpulse {
+  from { transform: scale(1); }
+  to { transform: scale(4.4); }
+}
+
+ul.cover li.seven {
+    width: 220px;
+    height: 220px;
+    top: 296px;
+    left: 77.5px;
+    z-index: 93;
+     background-color: #FF006E;
+    animation: sevenpulse 3s infinite ease-in-out alternate;
+}
+@keyframes sevenpulse {
+  from { transform: scale(1); }
+  to { transform: scale(6.5); }
+}
+
+ul.cover li.eight {
+    width: 230px;
+    height: 230px;
+    top: 291px;
+    left: 72.5px;
+    z-index: 92;
+ background-color: #ff8f00;
+    animation: eightpulse 3s infinite ease-in-out alternate;
+}
+@keyframes eightpulse {
+  from { transform: scale(1); }
+  to { transform: scale(9.9); }
+}
+
+ul.cover li.nine {
+    width: 240px;
+    height: 240px;
+    top: 286px;
+    left: 67.5px;
+    z-index: 91;
+ background-color: #3A86FF;
+    animation: ninepulse 3s infinite ease-in-out alternate;
+}
+@keyframes ninepulse {
+  from { transform: scale(1); }
+  to { transform: scale(15.4); }
+}
+
+ul.cover li.ten {
+    width: 250px;
+    height: 250px;
+    top: 281px;
+    left: 62.5px;
+    z-index: 90;
+    background-color: #8338EC;
+    animation: tenpulse 3s infinite ease-in-out alternate;
+}
+@keyframes tenpulse {
+  from { transform: scale(1); }
+  to { transform: scale(24.3); }
+}
+
+
+
+
+
+
+
+
+
+
+
+body {
+  width 375px;
+  background: #e2e2e2;
+}
+
+.wrapper {
+  padding-top: 100px;
+    width: 300px;
+  height: 320px;
+  margin: 140px auto;
+  position: relative;
+  overflow: hidden;
+  border-radius: 3%;  
+}
+
+.main-element {
+  position: absolute;
+  top: 1%;
+  left: 1.5%;
+  display: block;
+  height: 98%;
+  width: 97%;
+  margin: auto;
+  align-self: center;
+  background-color: #FFBE0B;
+  z-index: 80;
+  border-radius: 3%;
+}
+
+.border {
+  position: absolute;
+  display: block;
+  top: -60%;
+  left: -40%;
+  z-index: 79;
+  display: block;
+  height: 300%;
+  width: 300%;
+  transform: rotate(-45deg);
+  overflow: hidden;
+  background: linear-gradient(to left, #8338EC 10%, #3A86FF 35%, #FF006E 60%, #8338EC 85%);
+  background-size: 200% auto;
+  animation: shine 5s linear infinite;
+    animation: fadeInFirst 2.2s;
+}
+
+/*Begin shimmer code*/
+
+@keyframes shine {
+    to {
+      background-position: 200% center;
+    }
+  }fff
