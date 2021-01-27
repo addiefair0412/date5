@@ -46,12 +46,12 @@ button:active {
 
 @font-face {
   font-family: lato;
-  src: url("/Lato-Hairline.ttf");
+  src: url("Lato-Hairline.ttf");
 }
 
 @font-face {
   font-family: grandHotel;
-  src: url("/GrandHotel-Regular.otf");
+  src: url("GrandHotel-Regular.otf");
 }
 
 #mainFrameTwo {
