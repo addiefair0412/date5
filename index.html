@@ -28,3 +28,25 @@
          </div>
             
   </div>
+  
+   <script> 
+            tap = document.getElementById("grow"); 
+            words = document.getElementById("press");
+            pageTwo = document.getElementById("mainFrameTwo");
+            pageOne = document.getElementById("background");
+            // Function to set image dimensions 
+            function enlargeButton() { 
+                words.style.transform = "rotate(504deg)";
+                words.style.transition = "transform 1.2s ease";
+                press.style.transform = "scale(0)";
+                press.style.transition = "transform 1.2s ease";
+                tap.style.transform = "scale(0)";  
+                tap.style.transition = "transform 1.2s ease";
+                pageOne.style.transform = "scale(0)";  
+                pageOne.style.transition = "transform 1.2s ease";
+                pageTwo.style.display = "block";
+            } 
+
+           
+        </script> 
+    </body> 
