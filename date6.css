@@ -2,13 +2,13 @@ button {
      border-radius: 50%;
     -webkit-border-radius: 50%;
     -moz-border-radius: 50%;
-    height: 328px;
-    width: 328px;
+    height: 250px;
+    width: 250px;
     background-color: #FFBE0B;
     color: white;
     border: none;
-    top: 250px;
-    left: 732px;
+    top: 542px;
+    left: 250px;
     z-index: 100;
     display: block;
     position: relative;
