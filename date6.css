@@ -2,21 +2,21 @@ button {
      border-radius: 50%;
     -webkit-border-radius: 50%;
     -moz-border-radius: 50%;
-    height: 250px;
-    width: 250px;
+    height: 230px;
+    width: 230px;
     background-color: #FFBE0B;
     color: white;
     border: none;
-    top: 542px;
-    left: 210px;
+    top: 552px;
+    left: 220px;
     z-index: 100;
     display: block;
     position: relative;
     text-align: center;
     line-height: 70px;
     font-family: grandHotel;
-    transition-duration: all 3s ease-out;
-    font-size: 30px;
+    transition-duration: all 3s ease;
+    font-size: 50px;
 }
 
 p {
@@ -39,8 +39,8 @@ button:active {
     animation: fadeOut ease 3s;
     -webkit-animation: fadeOut ease 3s;
     position: relative;
-    height: 812px;
-    width: 375px;
+    height: 1334px;
+    width: 750px;
     list-style: none;
 }
 
@@ -60,8 +60,8 @@ button:active {
     justify-content: center;
     text-align: center;
     top: 0px;
-    height: 812px;
-    width: 375px;
+    height: 1334px;
+    width: 750px;
     background-color: #FFBE0B;
     background: cover;
     overflow-y: hidden;
@@ -70,11 +70,12 @@ button:active {
 
 h1 {
   animation: 1.0s slide-down;
-  margin-top: 10%;
-    margin-bottom: 30px;
+  margin-top: 8%;
+    margin-bottom: 50px;
     font-family: grandHotel;
     color: white;
-    font-size: 80px;
+    font-size: 180px;
+    animation: itinerarypulse 3s infinite ease-in-out alternate;
 }
 
 @keyframes slide-down {
@@ -84,7 +85,7 @@ h1 {
   }
 
   to {
-    margin-top: 10%;
+    margin-top: 8%;
     height: 100%;
   }
 }
@@ -92,7 +93,23 @@ h1 {
 h3 {
     font-family: lato;
     color: white;
-    font-size: 25px;
+    font-size: 40px;
+line-height: 50px;
+    animation: itinerarypulse 3s infinite ease-in-out alternate;
+}
+
+@keyframes itinerarypulse {
+  from { transform: scale(1); }
+  to { transform: scale(0.9); }
+}
+
+.itinerary {
+   animation: itineraryTwopulse 3s infinite ease-in-out alternate; 
+}
+
+@keyframes itineraryTwopulse {
+  from { transform: scale(1); }
+  to { transform: scale(0.9); }
 }
 
 #first {
@@ -196,10 +213,10 @@ ul.cover li.circle {
 }
 
 ul.cover li.one {
-    width: 270px;
-    height: 270px;
-    top: 532px;
-    left: 240px;
+    width: 240px;
+    height: 240px;
+    top: 547px;
+    left: 255px;
     z-index: 99;
     background-color: #3A86FF;
     animation: onepulse 3s infinite ease-in-out alternate;
@@ -210,10 +227,10 @@ ul.cover li.one {
 }
 
 ul.cover li.two {
-    width: 290px;
-    height: 290px;
-    top: 522px;
-    left: 230px;
+    width: 250px;
+    height: 250px;
+    top: 542px;
+    left: 250px;
     z-index: 98;
     background-color: #8338EC;
     animation: twopulse 3s infinite ease-in-out alternate;
@@ -224,10 +241,10 @@ ul.cover li.two {
 }
 
 ul.cover li.three {
-    width: 310px;
-    height: 310px;
-    top: 512px;
-    left: 220px;
+    width: 260px;
+    height: 260px;
+    top: 537px;
+    left: 245px;
     z-index: 97;
     background-color: #FF006E;
     animation: threepulse 3s infinite ease-in-out alternate;
@@ -239,10 +256,10 @@ ul.cover li.three {
 
 
 ul.cover li.four {
-    width: 330px;
-    height: 330px;
-    top: 502px;
-    left: 210px;
+    width: 270px;
+    height: 270px;
+    top: 532px;
+    left: 240px;
     z-index: 96;
     background-color: #ff8f00;
     animation: fourpulse 3s infinite ease-in-out alternate;
@@ -254,10 +271,10 @@ ul.cover li.four {
 
 
 ul.cover li.five {
-    width: 200px;
-    height: 200px;
-    top: 306px;
-    left: 87.5px;
+    width: 280px;
+    height: 280px;
+    top: 527px;
+    left: 230px;
     z-index: 95;
     background-color: #3A86FF;
      animation: fivepulse 3s infinite ease-in-out alternate;
@@ -268,10 +285,10 @@ ul.cover li.five {
 }
 
 ul.cover li.six {
-    width: 210px;
-    height: 210px;
-    top: 301px;
-    left: 82.5px;
+    width: 290px;
+    height: 290px;
+    top: 522px;
+    left: 225px;
     z-index: 94;
     background-color: #8338EC;
     animation: sixpulse 3s infinite ease-in-out alternate;
@@ -282,10 +299,10 @@ ul.cover li.six {
 }
 
 ul.cover li.seven {
-    width: 220px;
-    height: 220px;
-    top: 296px;
-    left: 77.5px;
+    width: 300px;
+    height: 300px;
+    top: 517px;
+    left: 220px;
     z-index: 93;
      background-color: #FF006E;
     animation: sevenpulse 3s infinite ease-in-out alternate;
@@ -296,10 +313,10 @@ ul.cover li.seven {
 }
 
 ul.cover li.eight {
-    width: 230px;
-    height: 230px;
-    top: 291px;
-    left: 72.5px;
+    width: 310px;
+    height:310px;
+    top: 512px;
+    left: 215px;
     z-index: 92;
  background-color: #ff8f00;
     animation: eightpulse 3s infinite ease-in-out alternate;
@@ -310,10 +327,10 @@ ul.cover li.eight {
 }
 
 ul.cover li.nine {
-    width: 240px;
-    height: 240px;
-    top: 286px;
-    left: 67.5px;
+    width: 320px;
+    height: 320px;
+    top: 507px;
+    left: 210px;
     z-index: 91;
  background-color: #3A86FF;
     animation: ninepulse 3s infinite ease-in-out alternate;
@@ -324,10 +341,10 @@ ul.cover li.nine {
 }
 
 ul.cover li.ten {
-    width: 250px;
-    height: 250px;
-    top: 281px;
-    left: 62.5px;
+    width: 330px;
+    height: 330px;
+    top: 502px;
+    left: 205px;
     z-index: 90;
     background-color: #8338EC;
     animation: tenpulse 3s infinite ease-in-out alternate;
@@ -348,19 +365,24 @@ ul.cover li.ten {
 
 
 body {
-  width 375px;
+  width 750px;
   background: #e2e2e2;
 }
 
 .wrapper {
-  padding-top: 100px;
-    width: 300px;
-  height: 320px;
-  margin: 140px auto;
   position: relative;
   overflow: hidden;
-  border-radius: 3%;  
+  border-radius: 8%; 
+    width: 500px;
+  height: 834px;
+  margin: 250px auto; 
+    animation: borderpulse 3s infinite ease-in-out alternate;
 }
+@keyframes borderpulse {
+  from { transform: scale(1); }
+  to { transform: scale(1.3); }
+}
+
 
 .main-element {
   position: absolute;
@@ -373,8 +395,15 @@ body {
   align-self: center;
   background-color: #FFBE0B;
   z-index: 80;
-  border-radius: 3%;
+  border-radius: 8%;
+  animation: mainpulse 3s infinite ease-in-out alternate;
 }
+@keyframes mainpulse {
+  from { height: 98%; width: 97%; top: 1%; left: 1.5% }
+  to { height: 82%; width: 76%; top: 9%; left: 12% }
+}
+
+
 
 .border {
   position: absolute;
@@ -389,8 +418,7 @@ body {
   overflow: hidden;
   background: linear-gradient(to left, #8338EC 10%, #3A86FF 35%, #FF006E 60%, #8338EC 85%);
   background-size: 200% auto;
-  animation: shine 5s linear infinite;
-    animation: fadeInFirst 2.2s;
+    animation: shine 5s linear infinite;
 }
 
 /*Begin shimmer code*/
