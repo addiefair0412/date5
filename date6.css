@@ -226,7 +226,7 @@ h1 {
     animation: 1.2s slide-down;
     font-family: grandHotel;
     color: white;
-    font-size: 240px;
+    font-size: 280px;
     margin-bottom: 0;
     margin-top: 8%;
 }
@@ -246,13 +246,13 @@ h1 {
 h3 {
     font-family: lato;
     color: white;
-    font-size: 80px;
+    font-size: 60px;
 }
 
 #cuteNote {
     animation: 8s fadeInLast;
     font-family: grandHotel;
-    font-size: 90px;
+    font-size: 80px;
     color: white;
     padding-top: 30px;
 }
@@ -267,7 +267,7 @@ h3 {
     89% {opacity:1;
     font-size:104px}
 100% {opacity:1;
-    font-size: 90px;}
+    font-size: 80px;}
 }
 
 @-moz-keyframes fadeInLast {
@@ -280,7 +280,7 @@ h3 {
     89% {opacity:1;
     font-size:104px}
 100% {opacity:1;
-    font-size: 90px;
+    font-size: 80px;
     }
     
 @-webkit-keyframes fadeInLast {
@@ -293,7 +293,7 @@ h3 {
     89% {opacity:1;
     font-size:104px}
 100% {opacity:1;
-    font-size: 90px;
+    font-size: 80px;
     }
 
 #first {
