@@ -337,67 +337,45 @@ h3 {
 100% {opacity:1;}
 }
 
-.wrapper {
-  position: relative;
-  overflow: hidden;
-  border-radius: 8%; 
-    width: 70%;
-  height: 50%;
-  margin: 10% auto; 
-    animation: borderpulse 3s infinite ease-in-out alternate;
-    vertical-align: middle;
+#cuteNote {
+    animation: 8s fadeInLast;
+    font-family: grandHotel;
+    font-size: 60px;
+    color: white;
 }
-@keyframes borderpulse {
-  from { transform: scale(1); }
-  to { transform: scale(1.3); }
+@keyframes fadeInLast {
+0% {opacity:0;
+    font-size: 0}
+    80% {opacity:0;
+    font-size: 0}
+83% {opacity:1;
+    font-size:100px}
+    89% {opacity:1;
+    font-size:104px}
+100% {opacity:1;
+    font-size: 60px;}
 }
-
-
-.main-element {
-  position: absolute;
-    vertical-align: middle;
-    justify-content: center;
-  top: 1%;
-  left: 1.5%;
-  display: block;
-  height: 98%;
-  width: 97%;
-  margin: auto;
-  align-self: center;
-  background-color: #FFBE0B;
-  z-index: 80;
-  border-radius: 8%;
-  animation: mainpulse 3s infinite ease-in-out alternate;
-    vertical-align: middle;
-    animation: 3.5s fadeInFirst;
+@-moz-keyframes fadeInLast {
+0% {opacity:0;
+    font-size: 0}
+    80% {opacity:0;
+    font-size: 0}
+83% {opacity:1;
+    font-size:100px}
+    89% {opacity:1;
+    font-size:104px}
+100% {opacity:1;
+    font-size: 60px;}
 }
-@keyframes mainpulse {
-  from { height: 98%; width: 97%; top: 1%; left: 1.5% }
-  to { height: 82%; width: 76%; top: 9%; left: 12% }
+@-webkit-keyframes fadeInLast {
+0% {opacity:0;
+    font-size: 0}
+    80% {opacity:0;
+    font-size: 0}
+83% {opacity:1;
+    font-size:100px}
+    89% {opacity:1;
+    font-size:104px}
+100% {opacity:1;
+    font-size: 60px;}
 }
-
-
-
-.border {
-  position: absolute;
-  display: block;
-  top: -600px;
-  left: -50px;
-  z-index: 79;
-  display: block;
-  height: 300%;
-  width: 200%;
-  transform: rotate(45deg);
-  background: linear-gradient(to left, #8338EC 10%, #3A86FF 35%, #FF006E 60%, #8338EC 85%);
-  background-size: 200% auto;
-    animation: shine 5s linear infinite;
-    animation: 3.5s fadeInFirst;
-}
-
-/*Begin shimmer code*/
-
-@keyframes shine {
-    to {
-      background-position: 200% center;
-    }
-  }fff
