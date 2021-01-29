@@ -226,7 +226,7 @@ h1 {
     animation: 1.2s slide-down;
     font-family: grandHotel;
     color: white;
-    font-size: 120px;
+    font-size: 240px;
     margin-bottom: 0;
     margin-top: 8%;
 }
@@ -246,8 +246,38 @@ h1 {
 h3 {
     font-family: lato;
     color: white;
-    font-size: 30px;
+    font-size: 80px;
 }
+
+#cuteNote {
+    animation: 8s fadeInLast;
+    font-family: grandHotel;
+    font-size: 90px;
+    color: white;
+}
+@keyframes fadeInLast {
+0% {opacity:0;
+    font-size: 0}
+    80% {opacity:0;
+    font-size: 0}
+83% {opacity:1;
+    font-size:100px}
+    89% {opacity:1;
+    font-size:104px}
+100% {opacity:1;
+    font-size: 60px;}
+}
+@-moz-keyframes fadeInLast {
+0% {opacity:0;}  
+58.33% {opacity:0;}
+100% {opacity:1;}
+}
+@-webkit-keyframes fadeInLast {
+0% {opacity:0;}  
+58.33% {opacity:0;}
+100% {opacity:1;}
+}
+
 
 #first {
     animation: 1.9s fadeInFirst;
@@ -337,45 +367,24 @@ h3 {
 100% {opacity:1;}
 }
 
-#cuteNote {
-    animation: 8s fadeInLast;
-    font-family: grandHotel;
-    font-size: 60px;
-    color: white;
+#fifth {
+    animation: 3.5s fadeInFifth;
 }
-@keyframes fadeInLast {
-0% {opacity:0;
-    font-size: 0}
-    80% {opacity:0;
-    font-size: 0}
-83% {opacity:1;
-    font-size:100px}
-    89% {opacity:1;
-    font-size:104px}
-100% {opacity:1;
-    font-size: 60px;}
+
+@keyframes fadeInFifth {
+0% {opacity:0;}  
+72.22% {opacity:0;}
+100% {opacity:1;}
 }
-@-moz-keyframes fadeInLast {
-0% {opacity:0;
-    font-size: 0}
-    80% {opacity:0;
-    font-size: 0}
-83% {opacity:1;
-    font-size:100px}
-    89% {opacity:1;
-    font-size:104px}
-100% {opacity:1;
-    font-size: 60px;}
+
+@-moz-keyframes fadeInFifth {
+0% {opacity:0;}
+72.22% {opacity:0;}
+100% {opacity:1;}
 }
-@-webkit-keyframes fadeInLast {
-0% {opacity:0;
-    font-size: 0}
-    80% {opacity:0;
-    font-size: 0}
-83% {opacity:1;
-    font-size:100px}
-    89% {opacity:1;
-    font-size:104px}
-100% {opacity:1;
-    font-size: 60px;}
+
+@-webkit-keyframes fadeInFifth {
+0% {opacity:0;}
+72.22% {opacity:0;}
+100% {opacity:1;}
 }
