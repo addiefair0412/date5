@@ -254,6 +254,7 @@ h3 {
     font-family: grandHotel;
     font-size: 90px;
     color: white;
+    padding-top: 30px;
 }
 
 @keyframes fadeInLast {
@@ -266,7 +267,7 @@ h3 {
     89% {opacity:1;
     font-size:104px}
 100% {opacity:1;
-    font-size: 60px;}
+    font-size: 90px;}
 }
 
 @-moz-keyframes fadeInLast {
@@ -279,7 +280,7 @@ h3 {
     89% {opacity:1;
     font-size:104px}
 100% {opacity:1;
-    font-size: 60px;
+    font-size: 90px;
     }
     
 @-webkit-keyframes fadeInLast {
@@ -292,7 +293,7 @@ h3 {
     89% {opacity:1;
     font-size:104px}
 100% {opacity:1;
-    font-size: 60px;
+    font-size: 90px;
     }
 
 #first {
