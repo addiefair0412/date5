@@ -1,3 +1,46 @@
+/* Cover Styles */
+body {
+    background-color: #FFBE0B;
+}
+
+#background {
+    background-color: #FFBE0B;
+    animation: fadeOut ease 3s;
+    -webkit-animation: fadeOut ease 3s;
+    position: relative;
+    height: 100%;
+    width: 100%;
+    list-style: none;
+}
+
+.cover li {
+    margin: auto;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    text-align: center;
+}
+
+
+
+/* Fonts */
+@font-face {
+  font-family: lato;
+  src: url("/lato/Lato-Regular.ttf");
+}
+
+@font-face {
+  font-family: grandHotel;
+  src: url("/grand-hotel/GrandHotel-Regular.otf");
+}
+
+
+
+/* Button */
 button {
      border-radius: 50%;
     -webkit-border-radius: 50%;
@@ -21,6 +64,12 @@ button {
     font-size: 50px;
 }
 
+button:active {
+    background-color: #FFBE0B;
+    filter: brightness(.8);
+    border: 2.5px solid 
+}
+
 p {
    animation: buttonpulse 3s infinite ease-in-out alternate;
 }
@@ -30,188 +79,14 @@ p {
   to { transform: scale(1.4); }
 }
 
-button:active {
-    background-color: #FFBE0B;
-    filter: brightness(.8);
-    border: 2.5px solid 
-}
 
-#background {
-    background-color: #FFBE0B;
-    animation: fadeOut ease 3s;
-    -webkit-animation: fadeOut ease 3s;
-    position: relative;
-    height: 100%;
-    width: 100%;
-    list-style: none;
-}
 
-@font-face {
-  font-family: lato;
-  src: url("Lato-Regular.ttf");
-}
 
-@font-face {
-  font-family: grandHotel;
-  src: url("GrandHotel-Regular.otf");
-}
-
-#mainFrameTwo {
-    display:none;
-    position: absolute;
-    justify-content: center;
-    text-align: center;
-    top: 0px;
-    height: 100%;
-    width: 100%;
-    background-color: #FFBE0B;
-    background: cover;
-    overflow-y: hidden;
-}
-
-h1 {
-  animation: 1.0s slide-down;
-    font-family: grandHotel;
-    color: white;
-    margin-top: 3%;
-    font-size: 120px;
-    animation: itinerarypulse 3s infinite ease-in-out alternate;
-    margin-bottom: 0px;
-}
-
-@keyframes slide-down {
-  from {
-    margin-top: -100%;
-    height: 200%; 
-  }
-
-  to {
-    margin-top: 3%;
-    height: 100%;
-  }
-}
-
-h3 {
-    font-family: lato;
-    color: white;
-    font-size: 30px;
-    margin: 20px;
-}
-
-.itinerary {
-   animation: itineraryTwopulse 3s infinite ease-in-out alternate; 
-}
-
-@keyframes itineraryTwopulse {
-  from { transform: scale(1); }
-  to { transform: scale(0.9); }
-}
-
-#first {
-    animation: 1.5s fadeInFirst;
-}
-
-@keyframes fadeInFirst {
-0% {opacity:0;}  
-58.33% {opacity:0;}
-100% {opacity:1;}
-}
-
-@-moz-keyframes fadeInFirst {
-0% {opacity:0;}
-58.33% {opacity:0;}
-100% {opacity:1;}
-}
-
-@-webkit-keyframes fadeInFirst {
-0% {opacity:0;}
-58.33% {opacity:0;}
-100% {opacity:1;}
-}
-
-#second {
-    animation: 1.7s fadeInSecond;
-}
-
-@keyframes fadeInSecond {
-0% {opacity:0;}  
-64.29% {opacity:0;}
-100% {opacity:1;}
-}
-
-@-moz-keyframes fadeInSecond {
-0% {opacity:0;}
-64.29% {opacity:0;}
-100% {opacity:1;}
-}
-
-@-webkit-keyframes fadeInSecond {
-0% {opacity:0;}
-64.29% {opacity:0;}
-100% {opacity:1;}
-}
-
-#third {
-    animation: 1.9s fadeInThird;
-}
-
-@keyframes fadeInThird {
-0% {opacity:0;}  
-68.75% {opacity:0;}
-100% {opacity:1;}
-}
-
-@-moz-keyframes fadeInThird {
-0% {opacity:0;}
-68.75% {opacity:0;}
-100% {opacity:1;}
-}
-
-@-webkit-keyframes fadeInThird {
-0% {opacity:0;}
-68.75% {opacity:0;}
-100% {opacity:1;}
-}
-
-#fourth {
-    animation: 2.1s fadeInFourth;
-}
-
-@keyframes fadeInFourth {
-0% {opacity:0;}  
-72.22% {opacity:0;}
-100% {opacity:1;}
-}
-
-@-moz-keyframes fadeInFourth {
-0% {opacity:0;}
-72.22% {opacity:0;}
-100% {opacity:1;}
-}
-
-@-webkit-keyframes fadeInFourth {
-0% {opacity:0;}
-72.22% {opacity:0;}
-100% {opacity:1;}
-}
-
-.cover li {
-    margin: auto;
-    position: absolute;
-    height: 100%;
-    width: 100%;
-    left: 0;
-    right: 0;
-    top: 0;
-    bottom: 0;
-    text-align: center;
-}
-
+/* Circles */
 ul.cover li.circle {
      -webkit-border-radius: 50%;
     -moz-border-radius: 50%;
     border-radius: 50%;
-    
 }
 
 ul.cover li.one {
@@ -250,7 +125,6 @@ ul.cover li.three {
   to { transform: scale(1.8); }
 }
 
-
 ul.cover li.four {
     width: 270px;
     height: 270px;
@@ -262,7 +136,6 @@ ul.cover li.four {
   from { transform: scale(1); }
   to { transform: scale(2.3); }
 }
-
 
 ul.cover li.five {
     width: 280px;
@@ -337,17 +210,131 @@ ul.cover li.ten {
 }
 
 
+/* Itinerary */
+#mainFrameTwo {
+    display:none;
+    position: absolute;
+    justify-content: center;
+    text-align: center;
+    top: 0px;
+    height: 100%;
+    width: 100%;
+    overflow-y: hidden;
+}
 
+h1 {
+    animation: 1.2s slide-down;
+    font-family: grandHotel;
+    color: white;
+    font-size: 120px;
+    margin-bottom: 0;
+    margin-top: 8%;
+}
 
+@keyframes slide-down {
+  from {
+    margin-top: -100%;
+    height: 200%; 
+  }
 
+  to {
+    margin-top: 8%;
+    height: 100%;
+  }
+}
 
+h3 {
+    font-family: lato;
+    color: white;
+    font-size: 30px;
+}
 
+#first {
+    animation: 1.9s fadeInFirst;
+}
 
+@keyframes fadeInFirst {
+0% {opacity:0;}  
+58.33% {opacity:0;}
+100% {opacity:1;}
+}
 
+@-moz-keyframes fadeInFirst {
+0% {opacity:0;}
+58.33% {opacity:0;}
+100% {opacity:1;}
+}
 
+@-webkit-keyframes fadeInFirst {
+0% {opacity:0;}
+58.33% {opacity:0;}
+100% {opacity:1;}
+}
 
-body {
-  background: #e2e2e2;
+#second {
+    animation: 2.3s fadeInSecond;
+}
+
+@keyframes fadeInSecond {
+0% {opacity:0;}  
+64.29% {opacity:0;}
+100% {opacity:1;}
+}
+
+@-moz-keyframes fadeInSecond {
+0% {opacity:0;}
+64.29% {opacity:0;}
+100% {opacity:1;}
+}
+
+@-webkit-keyframes fadeInSecond {
+0% {opacity:0;}
+64.29% {opacity:0;}
+100% {opacity:1;}
+}
+
+#third {
+    animation: 2.7s fadeInThird;
+}
+
+@keyframes fadeInThird {
+0% {opacity:0;}  
+68.75% {opacity:0;}
+100% {opacity:1;}
+}
+
+@-moz-keyframes fadeInThird {
+0% {opacity:0;}
+68.75% {opacity:0;}
+100% {opacity:1;}
+}
+
+@-webkit-keyframes fadeInThird {
+0% {opacity:0;}
+68.75% {opacity:0;}
+100% {opacity:1;}
+}
+
+#fourth {
+    animation: 3.1s fadeInFourth;
+}
+
+@keyframes fadeInFourth {
+0% {opacity:0;}  
+72.22% {opacity:0;}
+100% {opacity:1;}
+}
+
+@-moz-keyframes fadeInFourth {
+0% {opacity:0;}
+72.22% {opacity:0;}
+100% {opacity:1;}
+}
+
+@-webkit-keyframes fadeInFourth {
+0% {opacity:0;}
+72.22% {opacity:0;}
+100% {opacity:1;}
 }
 
 .wrapper {
@@ -358,6 +345,7 @@ body {
   height: 70%;
   margin: 10% auto; 
     animation: borderpulse 3s infinite ease-in-out alternate;
+    vertical-align: middle;
 }
 @keyframes borderpulse {
   from { transform: scale(1); }
@@ -367,6 +355,8 @@ body {
 
 .main-element {
   position: absolute;
+    vertical-align: middle;
+    justify-content: center;
   top: 1%;
   left: 1.5%;
   display: block;
@@ -378,6 +368,8 @@ body {
   z-index: 80;
   border-radius: 8%;
   animation: mainpulse 3s infinite ease-in-out alternate;
+    vertical-align: middle;
+    animation: 3.5s fadeInFirst;
 }
 @keyframes mainpulse {
   from { height: 98%; width: 97%; top: 1%; left: 1.5% }
@@ -389,16 +381,17 @@ body {
 .border {
   position: absolute;
   display: block;
-  top: -60%;
-  left: -40%;
+  top: -600px;
+  left: -50px;
   z-index: 79;
   display: block;
-  height: 100%;
-  width: 100%;
+  height: 300%;
+  width: 200%;
   transform: rotate(45deg);
   background: linear-gradient(to left, #8338EC 10%, #3A86FF 35%, #FF006E 60%, #8338EC 85%);
   background-size: 200% auto;
     animation: shine 5s linear infinite;
+    animation: 3.5s fadeInFirst;
 }
 
 /*Begin shimmer code*/
