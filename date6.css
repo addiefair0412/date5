@@ -255,6 +255,7 @@ h3 {
     font-size: 90px;
     color: white;
 }
+
 @keyframes fadeInLast {
 0% {opacity:0;
     font-size: 0}
@@ -267,17 +268,32 @@ h3 {
 100% {opacity:1;
     font-size: 60px;}
 }
-@-moz-keyframes fadeInLast {
-0% {opacity:0;}  
-58.33% {opacity:0;}
-100% {opacity:1;}
-}
-@-webkit-keyframes fadeInLast {
-0% {opacity:0;}  
-58.33% {opacity:0;}
-100% {opacity:1;}
-}
 
+@-moz-keyframes fadeInLast {
+0% {opacity:0;
+    font-size: 0}
+    80% {opacity:0;
+    font-size: 0}
+83% {opacity:1;
+    font-size:100px}
+    89% {opacity:1;
+    font-size:104px}
+100% {opacity:1;
+    font-size: 60px;
+    }
+    
+@-webkit-keyframes fadeInLast {
+0% {opacity:0;
+    font-size: 0}
+    80% {opacity:0;
+    font-size: 0}
+83% {opacity:1;
+    font-size:100px}
+    89% {opacity:1;
+    font-size:104px}
+100% {opacity:1;
+    font-size: 60px;
+    }
 
 #first {
     animation: 1.9s fadeInFirst;
