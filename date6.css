@@ -249,55 +249,6 @@ h3 {
     font-size: 60px;
 }
 
-    
-#cuteNote {
-    animation: 8s fadeInLast;
-    font-size: 80px;
-    padding-top: 30px;
-    font-family: grandHotel;
-     color: white;
-}
-
-
-@keyframes fadeInLast {
-0% {opacity:0;
-    font-size: 0}
-    80% {opacity:0;
-    font-size: 0}
-83% {opacity:1;
-    font-size:100px}
-    89% {opacity:1;
-    font-size:104px}
-100% {opacity:1;
-    font-size: 80px;}
-}
-
-@-moz-keyframes fadeInLast {
-0% {opacity:0;
-    font-size: 0}
-    80% {opacity:0;
-    font-size: 0}
-83% {opacity:1;
-    font-size:100px}
-    89% {opacity:1;
-    font-size:104px}
-100% {opacity:1;
-    font-size: 80px;
-    }
-    
-@-webkit-keyframes fadeInLast {
-0% {opacity:0;
-    font-size: 0}
-    80% {opacity:0;
-    font-size: 0}
-83% {opacity:1;
-    font-size:100px}
-    89% {opacity:1;
-    font-size:104px}
-100% {opacity:1;
-    font-size: 80px;
-    }
-
 #first {
     animation: 1.9s fadeInFirst;
 }
@@ -407,3 +358,51 @@ h3 {
 72.22% {opacity:0;}
 100% {opacity:1;}
 }
+
+#cuteNote {
+    animation: 8s fadeInLast;
+    font-size: 80px;
+    padding-top: 30px;
+    font-family: grandHotel;
+     color: white;
+}
+
+
+@keyframes fadeInLast {
+0% {opacity:0;
+    font-size: 0}
+    80% {opacity:0;
+    font-size: 0}
+83% {opacity:1;
+    font-size:100px}
+    89% {opacity:1;
+    font-size:104px}
+100% {opacity:1;
+    font-size: 80px;}
+}
+
+@-moz-keyframes fadeInLast {
+0% {opacity:0;
+    font-size: 0}
+    80% {opacity:0;
+    font-size: 0}
+83% {opacity:1;
+    font-size:100px}
+    89% {opacity:1;
+    font-size:104px}
+100% {opacity:1;
+    font-size: 80px;
+    }
+    
+@-webkit-keyframes fadeInLast {
+0% {opacity:0;
+    font-size: 0}
+    80% {opacity:0;
+    font-size: 0}
+83% {opacity:1;
+    font-size:100px}
+    89% {opacity:1;
+    font-size:104px}
+100% {opacity:1;
+    font-size: 80px;
+    }
