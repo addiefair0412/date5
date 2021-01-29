@@ -249,12 +249,16 @@ h3 {
     font-size: 60px;
 }
 
-#cuteNote {
+.cuteNote {
     animation: 8s fadeInLast;
     font-family: grandHotel;
     font-size: 80px;
     color: white;
     padding-top: 30px;
+}
+
+#little {
+    font-size: 50px;
 }
 
 @keyframes fadeInLast {
