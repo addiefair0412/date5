@@ -248,21 +248,16 @@ h3 {
     color: white;
     font-size: 60px;
 }
-h6 {
-    font-family: grandHotel;
-     color: white;
-}
+
     
 #cuteNote {
     animation: 8s fadeInLast;
     font-size: 80px;
     padding-top: 30px;
+    font-family: grandHotel;
+     color: white;
 }
 
-#little {
-    font-size: 50px;
-    animation: 10s fadeInLast;
-}
 
 @keyframes fadeInLast {
 0% {opacity:0;
